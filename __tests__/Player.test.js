@@ -91,3 +91,5 @@ test('checks if player is alive or not', () => {
   
     expect(player.inventory.length).toBeLessThan(oldCount);
   });
+
+  algo.reverse();
